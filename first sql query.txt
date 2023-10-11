@@ -1,0 +1,9 @@
+show databases;
+use mysql;
+show tables;
+create database cdac;
+use cdac;
+create table emp(empno int, ename varchar(40), sal decimal (12,2),deptno int);
+show tables;
+describe emp;
+
