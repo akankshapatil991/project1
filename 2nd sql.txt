@@ -11,5 +11,6 @@ describe student;
 alter table emp add hiredate date;
 alter table student add parentname varchar (40);
 create table bank(accno int, accname varchar (40), branch varchar(40));
-describe bank;
+describe bank
+jkhjhj
 alter table bank add ifsccode int;
