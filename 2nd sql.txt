@@ -1,0 +1,15 @@
+show databases;
+use mysql;
+show tables;
+create database cdac;
+use cdac;
+create table emp(empno int, ename varchar(40), sal decimal (12,2),deptno int);
+create table student(studentno int, studentname varchar(40), mono int);
+show tables;
+describe emp;
+describe student;
+alter table emp add hiredate date;
+alter table student add parentname varchar (40);
+create table bank(accno int, accname varchar (40), branch varchar(40));
+describe bank;
+alter table bank add ifsccode int;
